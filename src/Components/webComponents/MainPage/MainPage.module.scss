@@ -1,0 +1,120 @@
+body {
+  background-color: #EBEBEB
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../../../assets/images/designer_1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+    .firstBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4%;
+      width: 30%;
+      button {
+        height: 40px;
+        border: none;
+        color: #505F98;
+        background: white;
+        cursor: pointer;
+      }
+
+    }
+    .secondBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 38px;
+        color: #37447E;
+      }
+    }
+    .thirdBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      button {
+        width: 160px;
+        height: 26px;
+        background: #111B47;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    height: calc(100% - 60px);
+    .leftBlock {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      width: 50%;
+      .description {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 82%;
+        height: 50%;
+        .descHeader {
+          display: flex;
+          height: 30%;
+          font-size: 50px;
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif;
+          color: #454E54;
+        }
+        .descContent {
+          display: flex;
+          flex-direction: column;
+          gap: 10%;
+          height: 30%;
+          font-size: 18px;
+          font-weight: 400;
+          color: #505F98;
+          font-family: 'Roboto', sans-serif;
+        }
+        .descBtns {
+          display: flex;
+          gap: 30px;
+          button  {
+            width: 189px;
+            height: 36px;
+            background-color: transparent;
+            color: #454E54;
+            cursor: pointer;
+          }
+          button:first-child  {
+            width: 189px;
+            height: 36px;
+            background: #111B47;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .rightBlock {
+      display: flex;
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'SVS-Cartograph';
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+    src: url('SVS-Cartograph-Bold.otf') format('truetype');
+}
